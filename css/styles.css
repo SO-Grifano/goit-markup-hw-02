@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  color: #434455;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+h2 {
+  font-size: 36px;
+  letter-spacing: 0.72px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
