@@ -13,21 +13,27 @@ ul {
   list-style-type: none;
 }
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-weight: 700;
 }
+h2,
+h3 {
+  color: #2e2f42;
+}
+
 h1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-h2 {
+.section-title-h2 {
   font-size: 36px;
   letter-spacing: 0.72px;
   line-height: 1.11;
-  color: #2e2f42;
+}
+.item-title-h3 {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  font-weight: 500;
 }
