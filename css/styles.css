@@ -26,6 +26,50 @@ h1 {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
+
+/* Header */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.main-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+/* ? Який підхід вважатиметься правельним? */
+/* ? A (мені подобається цей, адже в такому разі ми точно знаємо що лого містить span) */
+.main-logo span {
+  color: #4d5ae5;
+}
+/* ? B */
+/* .logo-span {
+  color: #4D5AE5;
+} */
+
+.navbar-menu a {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+address a {
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-menu a:hover,
+.navbar-menu a:focus,
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
+
 .section-title-h2 {
   font-size: 36px;
   letter-spacing: 0.72px;
