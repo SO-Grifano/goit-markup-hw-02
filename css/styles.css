@@ -38,27 +38,27 @@ h1 {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.main-logo {
+.navbar-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* ? Який підхід вважатиметься правельним? */
 /* ? A (мені подобається цей, адже в такому разі ми точно знаємо що лого містить span) */
-.main-logo span {
-  color: #2e2f42;
-}
-/* ? B */
-/* .logo-span {
+/* .main-logo span {
   color: #2e2f42;
 } */
+/* ? B */
+.navbar-logo-span {
+  color: #2e2f42;
+}
 
-.navbar-menu a {
+.navbar-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
