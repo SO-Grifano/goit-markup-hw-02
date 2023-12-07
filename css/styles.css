@@ -32,7 +32,7 @@ h1 {
   color: white;
 }
 
-/* Header */
+/* Header & Navbar */
 .header {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
@@ -42,19 +42,20 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 /* ? Який підхід вважатиметься правельним? */
 /* ? A (мені подобається цей, адже в такому разі ми точно знаємо що лого містить span) */
 .main-logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 /* ? B */
 /* .logo-span {
-  color: #4D5AE5;
+  color: #2e2f42;
 } */
 
 .navbar-menu a {
@@ -64,8 +65,7 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-address a {
-  font-weight: 400;
+address {
   font-style: normal;
 }
 .navbar-menu a:hover,
@@ -74,15 +74,36 @@ address a:hover,
 address a:focus {
   color: #404bbf;
 }
+.navbar-contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Section - Hero */
 .section-hero {
   background-color: #2e2f42;
 }
+.section-heading-h1 {
+  text-align: center;
+}
+/* ? Є питання. Раніше я виділяв такі елементи які повторюються в проекті як кнопки і тп. в окреме місце вище від решти елементів. 
+/* ? Чи підхід ось такий як зара, ідучи від верху до низу і додаючи елемнте по черзі буде правельно верстати? 
+/* ? Чи так так само працюють вже в команді? */
 .button {
   background-color: #4d5ae5;
   padding: 16px 32px;
   color: white;
   border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+.button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+
+/* Section - Features */
 .section-features {
   background-color: #fff;
 }
@@ -91,24 +112,55 @@ address a:focus {
   letter-spacing: 0.72px;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 .item-title-h3 {
   font-size: 20px;
   letter-spacing: 0.4px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+.features-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Section - Team */
 .section-team {
   background-color: #f4f4fd;
   text-align: center;
 }
+.team-item {
+  background-color: #fff;
+}
+
+/* Section - Portfolio */
 .section-portfolio {
   background-color: #fff;
 }
+.portfolio-item-text {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer */
 .footer {
   background-color: #2e2f42;
   color: #fff;
 }
 .footer .main-logo {
   color: inherit;
+}
+.footer-logo {
+  color: #4d5ae5;
+}
+.footer-logo span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
