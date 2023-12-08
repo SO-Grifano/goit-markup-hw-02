@@ -82,7 +82,7 @@ address a:focus {
 .section-hero {
   background-color: #2e2f42;
 }
-.heading-style-h1 {
+.heading-style-main {
   text-align: center;
 }
 /* ? Є питання. Раніше я виділяв такі елементи які повторюються в проекті як кнопки і тп. в окреме місце вище від решти елементів. 
@@ -104,14 +104,14 @@ button:focus {
 .section-features {
   background-color: #fff;
 }
-.heading-style-h2 {
+.heading-style-section {
   font-size: 36px;
   letter-spacing: 0.72px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
 }
-.heading-style-h3 {
+.heading-style-element {
   font-size: 20px;
   letter-spacing: 0.4px;
   line-height: 1.2;
